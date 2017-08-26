@@ -1,9 +1,10 @@
 object FormAdvancedDriverAssistanceSystem: TFormAdvancedDriverAssistanceSystem
   Left = 0
   Top = 0
+  BorderStyle = bsDialog
   Caption = 'Advanced Driver Assistance System'
-  ClientHeight = 173
-  ClientWidth = 384
+  ClientHeight = 183
+  ClientWidth = 394
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,7 +18,7 @@ object FormAdvancedDriverAssistanceSystem: TFormAdvancedDriverAssistanceSystem
     AlignWithMargins = True
     Left = 8
     Top = 8
-    Width = 368
+    Width = 378
     Height = 17
     Margins.Left = 8
     Margins.Top = 8
@@ -26,12 +27,13 @@ object FormAdvancedDriverAssistanceSystem: TFormAdvancedDriverAssistanceSystem
     Align = alTop
     Caption = 'Adapted Cruise Control'
     TabOrder = 0
+    ExplicitWidth = 368
   end
   object CheckBoxLaneDepartureWarning: TCheckBox
     AlignWithMargins = True
     Left = 8
     Top = 101
-    Width = 368
+    Width = 378
     Height = 17
     Margins.Left = 8
     Margins.Top = 8
@@ -40,12 +42,13 @@ object FormAdvancedDriverAssistanceSystem: TFormAdvancedDriverAssistanceSystem
     Align = alTop
     Caption = 'Lane Departure Warning'
     TabOrder = 1
+    ExplicitWidth = 368
   end
   object CheckBoxLaneChanging: TCheckBox
     AlignWithMargins = True
     Left = 8
     Top = 70
-    Width = 368
+    Width = 378
     Height = 17
     Margins.Left = 8
     Margins.Top = 8
@@ -53,13 +56,14 @@ object FormAdvancedDriverAssistanceSystem: TFormAdvancedDriverAssistanceSystem
     Margins.Bottom = 6
     Align = alTop
     Caption = 'Lane Changing'
-    TabOrder = 2
+    TabOrder = 3
+    ExplicitWidth = 368
   end
   object CheckBoxLaneKeeping: TCheckBox
     AlignWithMargins = True
     Left = 8
     Top = 39
-    Width = 368
+    Width = 378
     Height = 17
     Margins.Left = 8
     Margins.Top = 8
@@ -67,7 +71,8 @@ object FormAdvancedDriverAssistanceSystem: TFormAdvancedDriverAssistanceSystem
     Margins.Bottom = 6
     Align = alTop
     Caption = 'Lane Keeping'
-    TabOrder = 3
+    TabOrder = 4
+    ExplicitWidth = 368
   end
   object ButtonApply: TButton
     Left = 301
@@ -75,6 +80,7 @@ object FormAdvancedDriverAssistanceSystem: TFormAdvancedDriverAssistanceSystem
     Width = 75
     Height = 25
     Caption = 'Apply'
-    TabOrder = 4
+    TabOrder = 2
+    OnClick = ButtonApplyClick
   end
 end

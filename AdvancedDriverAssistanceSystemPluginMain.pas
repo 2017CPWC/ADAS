@@ -206,3 +206,4 @@ procedure TF8AdvancedDriverAssistanceSystemPlugin.FreeRibbons;
   end;
 
 end.
+
